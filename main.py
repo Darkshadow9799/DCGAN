@@ -10,8 +10,8 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 
 
-IMG_H = 128
-IMG_W = 128
+IMG_H = 256
+IMG_W = 256
 IMG_C = 3  ## Change this to 1 for grayscale.
 w_init = tf.keras.initializers.RandomNormal(mean=0.0, stddev=0.02)
 
